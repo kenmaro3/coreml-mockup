@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		0A287BA0280189B700A99144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A287B9F280189B700A99144 /* AppDelegate.swift */; };
 		0A287BA2280189B700A99144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A287BA1280189B700A99144 /* SceneDelegate.swift */; };
-		0A287BA4280189B700A99144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A287BA3280189B700A99144 /* ViewController.swift */; };
-		0A287BA7280189B700A99144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A287BA5280189B700A99144 /* Main.storyboard */; };
+		0A287BA4280189B700A99144 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A287BA3280189B700A99144 /* HomeViewController.swift */; };
 		0A287BA9280189B900A99144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A287BA8280189B900A99144 /* Assets.xcassets */; };
 		0A287BAC280189B900A99144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A287BAA280189B900A99144 /* LaunchScreen.storyboard */; };
 		0A287BB7280189B900A99144 /* CoreMLAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A287BB6280189B900A99144 /* CoreMLAppTests.swift */; };
 		0A287BC1280189B900A99144 /* CoreMLAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A287BC0280189B900A99144 /* CoreMLAppUITests.swift */; };
 		0A287BC3280189B900A99144 /* CoreMLAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A287BC2280189B900A99144 /* CoreMLAppUITestsLaunchTests.swift */; };
+		0A287BD528018B5D00A99144 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A287BD428018B5D00A99144 /* TabBarViewController.swift */; };
+		0A287BD728018C8E00A99144 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A287BD628018C8E00A99144 /* Extension.swift */; };
+		0A287BD92801A16300A99144 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A287BD82801A16200A99144 /* CameraViewController.swift */; };
+		0A287BDB2801B4A100A99144 /* MobileNetV2Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0A287BDA2801B4A100A99144 /* MobileNetV2Int8LUT.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,7 @@
 		0A287B9C280189B700A99144 /* CoreMLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A287B9F280189B700A99144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A287BA1280189B700A99144 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A287BA3280189B700A99144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A287BA6280189B700A99144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A287BA3280189B700A99144 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0A287BA8280189B900A99144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A287BAB280189B900A99144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A287BAD280189B900A99144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		0A287BBC280189B900A99144 /* CoreMLAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A287BC0280189B900A99144 /* CoreMLAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLAppUITests.swift; sourceTree = "<group>"; };
 		0A287BC2280189B900A99144 /* CoreMLAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A287BD428018B5D00A99144 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0A287BD628018C8E00A99144 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0A287BD82801A16200A99144 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		0A287BDA2801B4A100A99144 /* MobileNetV2Int8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2Int8LUT.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +105,11 @@
 		0A287B9E280189B700A99144 /* CoreMLApp */ = {
 			isa = PBXGroup;
 			children = (
-				0A287B9F280189B700A99144 /* AppDelegate.swift */,
-				0A287BA1280189B700A99144 /* SceneDelegate.swift */,
-				0A287BA3280189B700A99144 /* ViewController.swift */,
-				0A287BA5280189B700A99144 /* Main.storyboard */,
-				0A287BA8280189B900A99144 /* Assets.xcassets */,
+				0A287BD328018A6000A99144 /* Controllers */,
+				0A287BD228018A5800A99144 /* Views */,
+				0A287BD128018A4D00A99144 /* ViewModels */,
+				0A287BD028018A4600A99144 /* Models */,
+				0A287BCF28018A3D00A99144 /* Resources */,
 				0A287BAA280189B900A99144 /* LaunchScreen.storyboard */,
 				0A287BAD280189B900A99144 /* Info.plist */,
 			);
@@ -125,6 +131,65 @@
 				0A287BC2280189B900A99144 /* CoreMLAppUITestsLaunchTests.swift */,
 			);
 			path = CoreMLAppUITests;
+			sourceTree = "<group>";
+		};
+		0A287BCF28018A3D00A99144 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A287BDA2801B4A100A99144 /* MobileNetV2Int8LUT.mlmodel */,
+				0A287BA8280189B900A99144 /* Assets.xcassets */,
+				0A287B9F280189B700A99144 /* AppDelegate.swift */,
+				0A287BA1280189B700A99144 /* SceneDelegate.swift */,
+				0A287BD628018C8E00A99144 /* Extension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A287BD028018A4600A99144 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A287BD128018A4D00A99144 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0A287BD228018A5800A99144 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A287BD328018A6000A99144 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A287BDD280262CD00A99144 /* Auth */,
+				0A287BDC280262C700A99144 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0A287BDC280262C700A99144 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0A287BA3280189B700A99144 /* HomeViewController.swift */,
+				0A287BD428018B5D00A99144 /* TabBarViewController.swift */,
+				0A287BD82801A16200A99144 /* CameraViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0A287BDD280262CD00A99144 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +298,6 @@
 			files = (
 				0A287BAC280189B900A99144 /* LaunchScreen.storyboard in Resources */,
 				0A287BA9280189B900A99144 /* Assets.xcassets in Resources */,
-				0A287BA7280189B700A99144 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +322,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A287BA4280189B700A99144 /* ViewController.swift in Sources */,
+				0A287BD728018C8E00A99144 /* Extension.swift in Sources */,
+				0A287BD528018B5D00A99144 /* TabBarViewController.swift in Sources */,
+				0A287BA4280189B700A99144 /* HomeViewController.swift in Sources */,
 				0A287BA0280189B700A99144 /* AppDelegate.swift in Sources */,
 				0A287BA2280189B700A99144 /* SceneDelegate.swift in Sources */,
+				0A287BDB2801B4A100A99144 /* MobileNetV2Int8LUT.mlmodel in Sources */,
+				0A287BD92801A16300A99144 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0A287BA5280189B700A99144 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A287BA6280189B700A99144 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A287BAA280189B900A99144 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,9 +500,10 @@
 				DEVELOPMENT_TEAM = B4C7245FA7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoreMLApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to use camera";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,9 +529,10 @@
 				DEVELOPMENT_TEAM = B4C7245FA7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoreMLApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to use camera";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
