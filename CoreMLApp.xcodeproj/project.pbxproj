@@ -106,9 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				0A287BD328018A6000A99144 /* Controllers */,
-				0A287BD228018A5800A99144 /* Views */,
 				0A287BD128018A4D00A99144 /* ViewModels */,
-				0A287BD028018A4600A99144 /* Models */,
 				0A287BCF28018A3D00A99144 /* Resources */,
 				0A287BAA280189B900A99144 /* LaunchScreen.storyboard */,
 				0A287BAD280189B900A99144 /* Info.plist */,
@@ -145,13 +143,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		0A287BD028018A4600A99144 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		0A287BD128018A4D00A99144 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,17 +150,9 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		0A287BD228018A5800A99144 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		0A287BD328018A6000A99144 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0A287BDD280262CD00A99144 /* Auth */,
 				0A287BDC280262C700A99144 /* Core */,
 			);
 			path = Controllers;
@@ -183,13 +166,6 @@
 				0A287BD82801A16200A99144 /* CameraViewController.swift */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		0A287BDD280262CD00A99144 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
